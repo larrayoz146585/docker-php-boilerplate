@@ -9,10 +9,10 @@ class ListaCompraTests extends TestCase
 {
     /**
      * @test
-     **/
-    public function testName()
+     */
+    public function AddProductReturnsOneOfThisProduct()
     {
-
+        $example = new ListaCompra();
+        $this->assertEquals("pan x1", $example->listaCompra("añadir pan"));
     }
-
 }

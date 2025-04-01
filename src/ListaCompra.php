@@ -4,13 +4,16 @@ namespace Deg540\DockerPHPBoilerplate;
 
 class ListaCompra
 {
-    function add(int $number1, int $number2): int
+    // TODO: Lista de la compra Kata
+    public static function listaCompra(string $productos): string
     {
-        return 0;
+        if ($productos != "") {
+            return  $productos + " x1";
+        } else {
+            return "";
+        }
+
+
     }
 
-    function multiply(int $number1, int $number2): int
-    {
-        return 0;
-    }
 }
