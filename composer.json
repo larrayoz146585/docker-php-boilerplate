@@ -1,6 +1,6 @@
 {
-    "name": "deg540/docker-php-boilerplate",
-    "description": "Docker PHP testing boilerplate",
+    "name": "deg540/lista-compra",
+    "description": "Una lista de la compra",
     "type": "project",
     "require-dev": {
         "phpunit/phpunit": "^9.5"
