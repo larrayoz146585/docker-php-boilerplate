@@ -10,9 +10,20 @@ class ListaCompraTests extends TestCase
     /**
      * @test
      */
-    public function AddProductReturnsOneOfThisProduct()
+    public function addProductReturnsOneOfThisProduct()
     {
         $example = new ListaCompra();
         $this->assertEquals("pan x1", $example->listaCompra("añadir pan"));
     }
+
+    /**
+     * @test
+     **/
+    public function addEspecificQuantityOfProductReturnsThisProduct()
+    {
+        $example = new ListaCompra();
+        $this->assertEquals("pan x2", $example->listaCompra("añadir pan 2"));
+    }
+
+
 }
